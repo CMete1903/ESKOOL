@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Syne", sans-serif;
+}
+
+
+#eskool-header-main {
+  background-color: #282828;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eskool-logo-linked img{
+    margin-left: 100px;
+}
+
+.middle-vector{
+    margin-left: 200px;
+    transform: rotate(10deg);
+    height: 1800px;
+}
+
+#eskool-main-page-nav-bar{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-icon img{
+    width: 20px;
+}
+
+#eskool-main-page-nav-bar :nth-child(n+2):nth-child(-n+4){
+    opacity: 70%;
+}
+
+nav a:nth-child(1)>img{
+    width: 13px;
+    margin-right: 7.5px;
+}
+
+.linked-nav-button{
+   
+    font-size: 20px;
+    color: #F9F9F9;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+}
+
+.linked-nav-button:nth-last-child(1){
+    border: 1px solid #FE6839;
+    border-radius: 100px;
+}
+
+.linked-nav-button:hover{
+    background-color: #616060;
+    border-radius: 50px;
+}
+
+.main-entrance{
+    width: 100%;
+    height: 85vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+}
+
+.texted-gallery{
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.texted-gallery .image-contain , .text-contain{
+    z-index: 1;
+}
+
+
+
+.text-contain p{
+    text-align: right;
+    font-size: 58px;
+}
+
+
+
+
+
+
