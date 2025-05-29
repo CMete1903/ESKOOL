@@ -13,16 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .eskool-logo-linked img{
     margin-left: 100px;
-}
-
-.middle-vector{
-    margin-left: 200px;
-    transform: rotate(10deg);
-    height: 1800px;
 }
 
 #eskool-main-page-nav-bar{
@@ -53,6 +49,7 @@ nav a:nth-child(1)>img{
     font-weight: 400;
     text-decoration: none;
     padding: 20px 25px 20px 25px;
+    transition-duration: 0.4s ;
 }
 
 .linked-nav-button:nth-last-child(1){
@@ -69,26 +66,91 @@ nav a:nth-child(1)>img{
     width: 100%;
     height: 85vh;
     background-color: #282828;
-    display: flex;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .texted-gallery{
     width: 95%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-.texted-gallery .image-contain , .text-contain{
+.image-contain , .text-contain{
     z-index: 1;
+    width: 50%;
 }
 
 
+.text-contain{
+    text-align: center;
+}
 
-.text-contain p{
-    text-align: right;
+.inclusive-container{
+    text-align: left;
+    width: 100;
+}
+
+.inclusive-container >p{
     font-size: 58px;
+    font-weight: bold;
+    color: white;
 }
+
+.inclusive-container p>span{
+    color: #FE6839;
+}
+
+.left-up-frame{
+    position: absolute;
+    top: 17%;
+    left :-5%;
+}
+.space-container{
+    width: 10%;
+    height: 100vh;
+}
+
+.right-down-frame{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.coached-bottom-text{
+    width: 55%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.coached-bottom-text >p{
+    font-size: 18px;
+    color: white;
+}
+
+.contact-now-button{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contact-now-button >a{
+   text-decoration: none;
+   border: 1px solid #FE6839;
+    border-radius: 100px;
+    padding: 20px 25px;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.contact-now-button >a:hover{
+    background-color: #616060;
+    border-radius: 50px;
+}
+
 
 
 
