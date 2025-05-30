@@ -1,10 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: "Syne", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
 }
-
 
 #eskool-header-main {
   background-color: #282828;
@@ -14,146 +13,241 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-.eskool-logo-linked img{
-    margin-left: 100px;
+.eskool-logo-linked img {
+  margin-left: 100px;
 }
 
-#eskool-main-page-nav-bar{
-    width: 40%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#eskool-main-page-nav-bar {
+  width: 40%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.home-icon img{
-    width: 20px;
+#eskool-main-page-nav-bar :nth-child(n + 2):nth-child(-n + 4) {
+  opacity: 70%;
 }
 
-#eskool-main-page-nav-bar :nth-child(n+2):nth-child(-n+4){
-    opacity: 70%;
+nav a:nth-child(1) > img {
+  width: 13px;
+  margin-right: 7.5px;
 }
 
-nav a:nth-child(1)>img{
-    width: 13px;
-    margin-right: 7.5px;
+.linked-nav-button {
+  font-size: 20px;
+  color: #f9f9f9;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 20px 25px 20px 25px;
+  transition-duration: 0.4s;
 }
 
-.linked-nav-button{
-   
-    font-size: 20px;
-    color: #F9F9F9;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 20px 25px 20px 25px;
-    transition-duration: 0.4s ;
+.linked-nav-button:nth-last-child(1) {
+  border: 1px solid #fe6839;
+  border-radius: 50px;
 }
 
-.linked-nav-button:nth-last-child(1){
-    border: 1px solid #FE6839;
-    border-radius: 100px;
+.linked-nav-button:hover {
+  background-color: #616060;
+  border-radius: 50px;
 }
 
-.linked-nav-button:hover{
-    background-color: #616060;
-    border-radius: 50px;
+.main-entrance {
+  width: 100%;
+  height: 85vh;
+  background-color: #282828;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-entrance{
+.texted-gallery {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 65vh;
+}
+
+.image-contain,
+.text-contain {
+  z-index: 1;
+  width: 50%;
+}
+
+.text-contain {
+  text-align: center;
+}
+
+.inclusive-container {
+  text-align: left;
+  width: 100%;
+}
+
+.inclusive-container > h1 {
+  font-size: 58px;
+  font-weight: bold;
+  color: white;
+}
+
+.inclusive-container h1 > span {
+  color: #fe6839;
+}
+
+.left-up-frame {
+  position: absolute;
+  top: 17%;
+  left: -2%;
+}
+.space-container {
+  width: 10%;
+  height: 60vh;
+}
+
+.space-container img {
+  position: absolute;
+  top: 77%;
+  left: 44%;
+  width: 200px;
+}
+
+.right-down-frame {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.coached-bottom-text {
+  width: 55%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.coached-bottom-text > p {
+  font-size: 18px;
+  color: white;
+}
+
+.contact-now-button {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contact-now-button > a {
+  text-decoration: none;
+  border: 1px solid #fe6839;
+  border-radius: 100px;
+  padding: 20px 25px;
+  color: white;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.contact-now-button > a:hover {
+  background-color: #616060;
+  border-radius: 50px;
+}
+
+.about-us {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about-us-header-content {
+  width: 100%;
+  height: 35vh;
+  background-color: #EAEAEA;
+  display: flex;
+}
+
+.au-main-content {
+  margin: auto;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.au-main-content h1 {
+  font-size: 45px;
+}
+
+.au-main-content a {
+  font-size: 18px;
+  color: black;
+  padding: 20px 25px;
+  border: 1px solid black;
+  border-radius: 50px;
+  align-self: self-start;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.au-main-content a:hover {
+  background-color: #e9e7e7;
+  border-radius: 50px;
+}
+
+.about-us-header-content span {
+  position: absolute;
+  top: 7.5%;
+  left: 10%;
+  display: flex;
+}
+
+.about-us-header-content span > img {
+  margin-right: 5px;
+}
+
+.about-us-center-container{
     width: 100%;
-    height: 85vh;
-    background-color: #282828;
-    align-items: center;
+    height: 65vh;
+    background-color: hsl(0, 0%, 98%) ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: end;
 }
 
-.texted-gallery{
-    width: 95%;
+.card-inclusive-contain{
+    width: 75%;
     display: flex;
-    align-items: center;
-    position: relative;
+    justify-content: space-around;
+    align-items: end;
 }
 
-.image-contain , .text-contain{
-    z-index: 1;
-    width: 50%;
-}
-
-
-.text-contain{
-    text-align: center;
-}
-
-.inclusive-container{
-    text-align: left;
-    width: 100;
-}
-
-.inclusive-container >p{
-    font-size: 58px;
-    font-weight: bold;
-    color: white;
-}
-
-.inclusive-container p>span{
-    color: #FE6839;
-}
-
-.left-up-frame{
-    position: absolute;
-    top: 17%;
-    left :-5%;
-}
-.space-container{
-    width: 10%;
-    height: 100vh;
-}
-
-.right-down-frame{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.coached-bottom-text{
-    width: 55%;
-    height: 50px;
-    margin-top: 20px;
-}
-
-.coached-bottom-text >p{
-    font-size: 18px;
-    color: white;
-}
-
-.contact-now-button{
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.contact-now-button >a{
-   text-decoration: none;
-   border: 1px solid #FE6839;
-    border-radius: 100px;
-    padding: 20px 25px;
-    color: white;
-    font-size: 20px;
-    transition-duration: 0.4s;
-}
-
-.contact-now-button >a:hover{
-    background-color: #616060;
+.cards-to-learnmore{
+    width: 30%;
+    height: 500px;
     border-radius: 50px;
+    padding: 50px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.crema-card{
+    background-color:#EAEAEA ;
+    font-size: 20px;
 }
 
+.orange-card{
+    background-color: #FE6839;
+    font-size: 20px;
+}
 
-
-
+.backgrounded-card{
+    background: url(assets/div-card-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    font-size: 20px;
+}
 
 
 
