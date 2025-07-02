@@ -1,211 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Eskool Coaching</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Syne:wght@400..800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap&subset=latin"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaquery.css" />
+  <title>Eskool Coaching</title>
 
-  <body>
-    <header id="eskool-header-main">
-      <a href="" class="eskool-logo-linked">
-        <img src="assets/eskool-logo.png" alt="Eskool Logo" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap&subset=latin"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="eskool-header-main">
+    <a href="" class="eskool-logo-linked">
+      <img src="assets/eskool-logo.png" alt="Eskool Logo" />
+    </a>
+
+    <nav id="eskool-main-page-nav-bar">
+      <a href="" class="linked-nav-button"><img src="assets/home-button-icon.png" alt="Home Button İcon" />Home</a>
+      <a href="" class="linked-nav-button">About</a>
+      <a href="" class="linked-nav-button">Course</a>
+      <a href="" class="linked-nav-button">Podcast</a>
+      <a href="" class="linked-nav-button">Contact Now</a>
+    </nav>
+
+    <!-- JavaScript Mobile Menu -->
+    <div class="hamburger-menu" id="hamburgerMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-content">
+      <a href="" class="mobile-nav-link">
+        <img src="assets/home-button-icon.png" alt="Home Button İcon" style="width: 13px; margin-right: 7.5px;" />
+        Home
       </a>
+      <a href="" class="mobile-nav-link">About</a>
+      <a href="" class="mobile-nav-link">Course</a>
+      <a href="" class="mobile-nav-link">Podcast</a>
+      <a href="" class="mobile-nav-link">Contact Now</a>
+    </div>
+  </div>
 
-      <nav id="eskool-main-page-nav-bar">
-        <a href="" class="linked-nav-button"
-          ><img
-            src="assets/home-button-icon.png"
-            alt="Home Button İcon"
-          />Home</a
-        >
-        <a href="" class="linked-nav-button">About</a>
-        <a href="" class="linked-nav-button">Course</a>
-        <a href="" class="linked-nav-button">Podcast</a>
-        <a href="" class="linked-nav-button">Contact Now</a>
-      </nav>
-    </header>
-    <section class="main-entrance">
-      <img src="assets/left-up-frame.png" alt="" class="left-up-frame" />
-      <div class="texted-gallery">
-        <div class="image-contain">
-          <img src="assets/center-main-photo.png" alt="" />
-        </div>
-        <div class="space-container">
-          <img src="assets/space-area-elipse.png" alt="" />
-        </div>
-        <div class="text-contain">
-          <div class="inclusive-container">
-            <h1>
-              Coached by the
-              <span
-                >world’s <br />
-                top experts</span
-              >
-              in the field
-            </h1>
-            <div class="coached-bottom-text">
-              <p>
-                Aliquam aliquet duis odio diam malesuada amet vel neque.
-                Malesuada mi cum ibendum neque integer interdum.
-              </p>
-              <div class="contact-now-button">
-                <a href="">Contact Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
+  <section class="main-entrance">
+    <img src="assets/left-up-frame.png" alt="" class="left-up-frame" />
+    <div class="texted-gallery">
+      <div class="image-contain">
+        <img src="assets/center-main-photo.png" alt="" />
       </div>
-      <img src="assets/right-down-frame.png" alt="" class="right-down-frame" />
-    </section>
-    <section class="about-us">
-      <div class="about-us-header-content">
-        <span><img src="assets/about-us-rectangle.png" alt="" />ABOUT US</span>
-        <div class="au-main-content">
+      <div class="space-container">
+        <img src="assets/space-area-elipse.png" alt="" />
+      </div>
+      <div class="text-contain">
+        <div class="inclusive-container">
           <h1>
-            Coached by top experts on the topic about your ultimate goals.
+            Coached by the
+            <span>world's <br />
+              top experts</span>
+            in the field
           </h1>
-          <a href=""
-            >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-          /></a>
-        </div>
-      </div>
-      <div class="about-us-center-container">
-        <div class="card-inclusive-contain">
-          <div class="cards-to-learnmore crema-card">
-            <div class="card-upper-text">
-              <h2>Digital Agency Coaching & Mentoring for Online Success</h2>
-            </div>
-            <div class="card-bottom-button">
-              <a href=""
-                >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="cards-to-learnmore orange-card">
-            <div class="card-upper-logo">
-              <img src="assets/orange-card-logo.png" alt="" />
-            </div>
-            <div class="bottom-text-and-button">
-              <h2>Start and Grow a Business</h2>
-            </div>
-            <div class="bottom-button-orange">
-              <a href=""
-                >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="cards-to-learnmore backgrounded-card">
-            <div class="card-upper-text">
-              <h2>Start and Grow a Business</h2>
-            </div>
-            <div class="card-bottom-button orange-card-button">
-              <a href=""
-                >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-              /></a>
+          <div class="coached-bottom-text">
+            <p>
+              Aliquam aliquet duis odio diam malesuada amet vel neque.
+              Malesuada mi cum ibendum neque integer interdum.
+            </p>
+            <div class="contact-now-button">
+              <a href="">Contact Now</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="what-we-do">
-      <div class="wwdo-main-container">
-        <div class="wwdo-upper-container">
-          <div class="left-wwdo-area">
-            <div class="explains-inclusive-container">
-              <div class="wwdo-span-text">
-                <span
-                  ><img src="assets/about-us-rectangle.png" alt="" />WHAT WE
-                  DO</span
-                >
+    </div>
+    <img src="assets/right-down-frame.png" alt="" class="right-down-frame" />
+  </section>
+  <section class="about-us">
+    <div class="about-us-header-content">
+      <span><img src="assets/about-us-rectangle.png" alt="" />ABOUT US</span>
+      <div class="au-main-content">
+        <h1>
+          Coached by top experts on the topic about your ultimate goals.
+        </h1>
+        <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
+      </div>
+    </div>
+    <div class="about-us-center-container">
+      <div class="card-inclusive-contain">
+        <div class="cards-to-learnmore crema-card">
+          <div class="card-upper-text">
+            <h2>Digital Agency Coaching & Mentoring for Online Success</h2>
+          </div>
+          <div class="card-bottom-button">
+            <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="cards-to-learnmore orange-card">
+          <div class="card-upper-logo">
+            <img src="assets/orange-card-logo.png" alt="" />
+          </div>
+          <div class="bottom-text-and-button">
+            <h2>Start and Grow a Business</h2>
+          </div>
+          <div class="bottom-button-orange">
+            <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="cards-to-learnmore backgrounded-card">
+          <div class="card-upper-text">
+            <h2>Start and Grow a Business</h2>
+          </div>
+          <div class="card-bottom-button orange-card-button">
+            <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="what-we-do">
+    <div class="wwdo-main-container">
+      <div class="wwdo-upper-container">
+        <div class="left-wwdo-area">
+          <div class="explains-inclusive-container">
+            <div class="wwdo-span-text">
+              <span><img src="assets/about-us-rectangle.png" alt="" />WHAT WE
+                DO</span>
+            </div>
+            <div class="right-explains-area">
+              <div class="strategies-header">
+                <h2>New strategies that lead to a growing in sales</h2>
               </div>
-              <div class="right-explains-area">
-                <div class="strategies-header">
-                  <h2>New strategies that lead to a growing in sales</h2>
+              <div class="explains-area">
+                <div class="explain-one">
+                  <b>01</b>
+                  <p>
+                    Aliquam aliquet duis odio diam malesuada amet vel neque.
+                    Malesuada mi cum ibendum.
+                  </p>
                 </div>
-                <div class="explains-area">
-                  <div class="explain-one">
-                    <b>01</b>
-                    <p>
-                      Aliquam aliquet duis odio diam malesuada amet vel neque.
-                      Malesuada mi cum ibendum.
-                    </p>
-                  </div>
-                  <div class="explain-two">
-                    <b>02</b>
-                    <p>
-                      Ultrices ultrices orci proin sit mauris diam a dolor diam.
-                      Nisl a arcu placerat tellus at vitae non turpis.
-                    </p>
-                  </div>
-                  <div class="explain-three">
-                    <b>03</b>
-                    <p>
-                      Nisi pellentesque felis nulla eros sodales cursus iaculis
-                      fames viverra. Id feugiat a vitae ultrices sed.
-                    </p>
-                  </div>
+                <div class="explain-two">
+                  <b>02</b>
+                  <p>
+                    Ultrices ultrices orci proin sit mauris diam a dolor diam.
+                    Nisl a arcu placerat tellus at vitae non turpis.
+                  </p>
                 </div>
-                <div class="explains-lm-button">
-                  <a href=""
-                    >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-                  /></a>
+                <div class="explain-three">
+                  <b>03</b>
+                  <p>
+                    Nisi pellentesque felis nulla eros sodales cursus iaculis
+                    fames viverra. Id feugiat a vitae ultrices sed.
+                  </p>
                 </div>
+              </div>
+              <div class="explains-lm-button">
+                <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
               </div>
             </div>
           </div>
-          <div class="right-images-area">
-            <img src="assets/wwdo-image.png" alt="" />
-          </div>
+        </div>
+        <div class="right-images-area">
+          <img src="assets/wwdo-image.png" alt="" />
         </div>
       </div>
-      <div class="bottom-footer-container">
-        <div class="wwdo-main-footer-container">
-          <div class="wwdo-footer-text">
-            <h2>High performance team coaching. Join us and grow.</h2>
-          </div>
-          <div class="wwdo-footer-right-button">
-            <a href=""
-              >Learn More <img src="assets/learn-more-arrow.svg" alt=""
-            /></a>
-          </div>
+    </div>
+    <div class="bottom-footer-container">
+      <div class="wwdo-main-footer-container">
+        <div class="wwdo-footer-text">
+          <h2>High performance team coaching. Join us and grow.</h2>
+        </div>
+        <div class="wwdo-footer-right-button">
+          <a href="">Learn More <img src="assets/learn-more-arrow.svg" alt="" /></a>
         </div>
       </div>
-    </section>
-    <section class="our-services-layers">
-      <div class="our-services-main-container">
-        <div class="our-services-content-container">
-          <div class="left-span-text-area">
-            <span><img src="assets/about-us-rectangle.png"alt=""/>OUR SERVICES</span>
+    </div>
+  </section>
+  <section class="our-services-layers">
+    <div class="our-services-main-container">
+      <div class="our-services-content-container">
+        <div class="left-span-text-area">
+          <span><img src="assets/about-us-rectangle.png" alt="" />OUR SERVICES</span>
+        </div>
+        <div class="center-text-area">
+          <div class="our-services-center-header">
+            <img src="assets/our-servcices-header-icon.png" alt="">
+            <h2>Our full services</h2>
           </div>
-          <div class="center-text-area">
-            <div class="our-services-center-header">
-              <img src="assets/our-servcices-header-icon.png" alt=""><h2>Our full services</h2>
+          <div class="header-bottom-text-area">
+            <h2>Meet the team</h2>
+            <h2>Customer support</h2>
+            <h2>Our values</h2>
+            <h2>Business toolkit</h2>
+            <h2>Corporate coach</h2>
+          </div>
+        </div>
+        <div class="our-services-right-images-area"><img src="assets/our-services-right-image.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section class="expert-coaching">
+    <div class="exp-coach-container">
+      <div class="exp-coach-upper-container">
+        <div class="exp-coach-upper-insider-container">
+          <div class="insider-left-area"> <span><img src="assets/about-us-rectangle.png" alt="" />EXPERT COACHING</span>
+          </div>
+          <div class="insider-right-area">
+            <div class="insider-right-header">
+              <h1>Leadership academy virtual, apply today with intro price.</h1>
             </div>
-            <div class="header-bottom-text-area">
-              <h2>Meet the team</h2>
-              <h2>Customer support</h2>
-              <h2>Our values</h2>
-              <h2>Business toolkit</h2>
-              <h2>Corporate coach</h2>
-            </div>
+            <div class="insider-right-paragraf">Aliquam aliquet duis odio diam malesuada amet</div>
+            <div class="insider-right-button-learn-more"><a href="">Learn More <img src="assets/learn-more-arrow.svg"
+                  alt="" /></a></div>
           </div>
-          <div class="our-services-right-images-area"><img src="assets/our-services-right-image.png" alt=""></div>
         </div>
       </div>
-    </section>
-  </body>
+      <div class="exp-coach-sub-container">
+        <div class="exp-coach-center-info-area">
+          <div class="exp-coach-center-left-area">
+            <div class="scalable-text-area"><span><img src="assets/home-button-icon.png" alt="">
+                <p>Ut mattis vulputate id enim lorem eu
+                  nullam. Sceleris lobortis phasellus sapien
+                  aliquam ornare accumsan.
+              </span>
+            </div>
+
+          </div>
+          <div class="exp-coach-center-img-area"></div>
+
+        </div>
+        <div class="exp-coach-icon-area">
+          <div class="icons-parts"></div>
+          <div class="icons-parts right-60-under-the-image-area">
+            <div class="icon-row-parts">
+              <img src="assets/team-cocaching-frame.png" alt="">
+              <img src="assets/high-performance-frame.png" alt="">
+            </div>
+            <div class="icon-row-parts under-part-icons">
+              <img src="assets/online-course-frame.png" alt="">
+              <img src="assets/licensed-mentors-frame.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="new-course">
+    <div class="newcourse-container">
+      <div class="new-course-upper-area">
+        <div class="new-course-upper-banner">
+          <div class="nw-left-img"></div>
+          <div class="mg-right-area">
+            <img src="assets/nc-logo.png" alt="">
+            <div class="mg-content-area">
+              <div class="nc-header"><span><img src="assets/white-rectangle.png" alt="">New Course</span></div>
+              <div class="management-for-creatives">
+                <p>June 23/2023</p>
+                <h2>Management for
+                  Creatives</h2>
+              </div>
+              <div class="enroll-now">
+                <p>Ut mattis vulputate id enim lorem eu nullam. Sceleris lobortis phasellus sapien aliquam ornare.</p>
+                <a href="" class="enroll-now-button">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="new-course-bottom-area">
+          <div class="new-course-bottom-coaching-benefits">
+            <div class="boc-header">
+              <h2>Benefits of coaching</h2>
+            </div>
+            <div class="boc-content">
+              <img src="assets/nc-sch.png" alt="">
+              <img src="assets/nc-org.png" alt="">
+              <img src="assets/nc-time.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="testimonials">
+    <div class="testimonials-container">
+      <div class="testimonials-center">
+        <div class="testimonials-image-container"><img src="assets/testimonials.png" alt=""></div>
+        <div class="testimonials-paragraph-container">
+          <div class="testimonials-paragraph">
+            <p>Finally, a coaching program with a passionate
+              community that helps to address essential
+              growth questions in a structured way.</p>
+              <div class="testimonials-paragraph-buttons">
+                <img src="assets/testi-left.png" alt="">
+                <img src="assets/testi-right.png" alt="">
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="script.js"></script>
+
 </html>

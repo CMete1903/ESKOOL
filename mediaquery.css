@@ -1,0 +1,1370 @@
+/* ========================================
+   RESPONSIVE TASARIM - MEDIA QUERIES
+   ======================================== */
+
+/* ========================================
+   TABLET LANDSCAPE (1200px ve altı)
+   ======================================== */
+@media (max-width: 1200px) {
+  /* Logo pozisyonunu ayarlar - soldan boşluğu azaltır */
+  .eskool-logo-linked img {
+    margin-left: 50px;
+  }
+  
+  /* Navigasyon barının genişliğini artırır */
+  #eskool-main-page-nav-bar {
+    width: 50%;
+  }
+  
+  /* Ana başlık font boyutunu küçültür */
+  .inclusive-container>h1 {
+    font-size: 48px;
+  }
+  
+  /* Hakkımızda başlık font boyutunu küçültür */
+  .au-main-content h1 {
+    font-size: 38px;
+  }
+  
+  /* Kart konteynerinin genişliğini artırır */
+  .card-inclusive-contain {
+    width: 85%;
+  }
+  
+  /* Kartların genişliğini ve padding'ini ayarlar */
+  .cards-to-learnmore {
+    width: 28%;
+    padding: 40px;
+  }
+  
+  /* New Course bölümünün yüksekliğini ayarlar */
+  .new-course {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* New Course konteynerinin yüksekliğini ayarlar */
+  .newcourse-container {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* New Course üst alanının yüksekliğini ayarlar */
+  .new-course-upper-area {
+    height: auto;
+    min-height: 60vh;
+  }
+  
+  /* New Course banner genişliğini artırır */
+  .new-course-upper-banner {
+    width: 90%;
+  }
+  
+  /* New Course başlık font boyutunu küçültür */
+  .management-for-creatives>h2 {
+    font-size: 38px;
+  }
+  
+  /* New Course alt bölümünün yüksekliğini ayarlar */
+  .new-course-bottom-area {
+    height: auto;
+    min-height: 40vh;
+    padding: 40px 0;
+  }
+  
+  /* New Course alt başlık font boyutunu küçültür */
+  .boc-header h2 {
+    font-size: 38px;
+  }
+}
+
+/* ========================================
+   TABLET PORTRAIT (992px ve altı)
+   ======================================== */
+@media (max-width: 992px) {
+  /* Header yüksekliğini otomatik yapar ve padding ekler */
+  #eskool-header-main {
+    height: auto;
+    min-height: 12vh;
+    padding: 15px 0;
+  }
+  
+  /* Logo pozisyonunu daha da azaltır */
+  .eskool-logo-linked img {
+    margin-left: 30px;
+  }
+  
+  /* Navigasyon barının genişliğini artırır */
+  #eskool-main-page-nav-bar {
+    width: 60%;
+  }
+  
+  /* Navigasyon butonlarının font boyutunu ve padding'ini küçültür */
+  .linked-nav-button {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  
+  /* Ana giriş bölümünün yüksekliğini otomatik yapar */
+  .main-entrance {
+    height: auto;
+    min-height: 80vh;
+    padding: 40px 0;
+  }
+  
+  /* Metin ve galeri alanını dikey düzene çevirir */
+  .texted-gallery {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Resim ve metin konteynerlerini tam genişlik yapar */
+  .image-contain,
+  .text-contain {
+    width: 100%;
+  }
+  
+  /* Resimlerin maksimum genişliğini ayarlar */
+  .image-contain img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Ana başlığı ortalar ve font boyutunu küçültür */
+  .inclusive-container>h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  /* Alt metin alanını tam genişlik yapar */
+  .coached-bottom-text {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  
+  /* Alt metin paragrafını ortalar */
+  .coached-bottom-text>p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Hakkımızda bölümünün yüksekliğini otomatik yapar */
+  .about-us {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* Hakkımızda header içeriğini dikey düzene çevirir */
+  .about-us-header-content {
+    height: auto;
+    min-height: 35vh;
+    padding: 50px 20px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Span elementini statik pozisyon yapar */
+  .about-us-header-content span {
+    position: static;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  /* Ana içerik alanını ortalar */
+  .au-main-content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  /* Hakkımızda başlık font boyutunu küçültür */
+  .au-main-content h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  /* Hakkımızda merkez konteynerini ayarlar */
+  .about-us-center-container {
+    height: auto;
+    min-height: 65vh;
+    padding: 50px 20px;
+  }
+  
+  /* Kart konteynerini dikey düzene çevirir */
+  .card-inclusive-contain {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Kartları tam genişlik yapar */
+  .cards-to-learnmore {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 40px 30px;
+  }
+  
+  /* Kart başlıklarının font boyutunu küçültür */
+  .card-upper-text h2,
+  .bottom-text-and-button h2 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  /* Ne yaptığımız bölümünün yüksekliğini otomatik yapar */
+  .what-we-do {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* Ne yaptığımız ana konteynerini ayarlar */
+  .wwdo-main-container {
+    height: auto;
+    min-height: 80vh;
+  }
+  
+  /* Ne yaptığımız üst konteynerini dikey düzene çevirir */
+  .wwdo-upper-container {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 20px;
+  }
+  
+  /* Sol ve sağ alanları tam genişlik yapar */
+  .left-wwdo-area,
+  .right-images-area {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Sağ resim alanına üstten boşluk ekler */
+  .right-images-area {
+    margin-top: 30px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Sağ resim alanındaki resmi ayarlar - tam gözükmesi için */
+  .right-images-area img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  
+  /* Açıklama konteynerini dikey düzene çevirir */
+  .explains-inclusive-container {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+    padding: 0;
+  }
+  
+  /* Span metin ve sağ açıklama alanlarını tam genişlik yapar */
+  .wwdo-span-text,
+  .right-explains-area {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Span metnini ortalar */
+  .wwdo-span-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Stratejiler başlığını ayarlar */
+  .strategies-header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Stratejiler başlık font boyutunu küçültür */
+  .strategies-header h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  
+  /* Açıklama alanını ayarlar */
+  .explains-area {
+    height: auto;
+    gap: 20px;
+  }
+  
+  /* Açıklama öğelerini ayarlar */
+  .explain-one,
+  .explain-two,
+  .explain-three {
+    height: auto;
+    min-height: 80px;
+    align-items: flex-start;
+  }
+  
+  /* Açıklama paragraflarının font boyutunu küçültür */
+  .explain-one p,
+  .explain-two p,
+  .explain-three p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Açıklama öğrenme butonunu ayarlar */
+  .explains-lm-button {
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Alt footer konteynerini ayarlar */
+  .bottom-footer-container {
+    height: auto;
+    min-height: 20vh;
+    padding: 40px 20px;
+  }
+  
+  /* Ne yaptığımız ana footer konteynerini dikey düzene çevirir */
+  .wwdo-main-footer-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    height: auto;
+  }
+  
+  /* Footer metin ve buton alanlarını tam genişlik yapar */
+  .wwdo-footer-text,
+  .wwdo-footer-right-button {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Footer başlık font boyutunu küçültür */
+  .wwdo-footer-text h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  /* Hizmetlerimiz katmanlarını ayarlar */
+  .our-services-layers {
+    height: auto;
+    min-height: 100vh;
+    padding: 50px 0;
+  }
+  
+  /* Hizmetlerimiz ana konteynerini ortalar */
+  .our-services-main-container {
+    height: auto;
+    align-items: center;
+  }
+  
+  /* Hizmetlerimiz içerik konteynerini dikey düzene çevirir */
+  .our-services-content-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    height: auto;
+    padding: 0 20px;
+  }
+  
+  /* Sol span, merkez metin ve sağ resim alanlarını tam genişlik yapar */
+  .left-span-text-area,
+  .center-text-area,
+  .our-services-right-images-area {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Sol span alanına alt boşluk ekler */
+  .left-span-text-area {
+    margin-bottom: 20px;
+  }
+  
+  /* Sol span alanındaki metni ortalar */
+  .left-span-text-area span {
+    justify-content: center;
+  }
+  
+  /* Hizmetlerimiz merkez başlığını ortalar */
+  .our-services-center-header {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Hizmetlerimiz merkez başlık font boyutunu küçültür */
+  .our-services-center-header h2 {
+    font-size: 24px;
+  }
+  
+  /* Başlık alt metin alanının font boyutunu küçültür */
+  .header-bottom-text-area {
+    font-size: 20px;
+  }
+  
+  /* Başlık alt metin başlığını ayarlar */
+  .header-bottom-text-area h2 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  /* Sağ resim alanına üstten boşluk ekler */
+  .our-services-right-images-area {
+    margin-top: 30px;
+  }
+  
+  /* Sağ resim alanındaki resmi ayarlar */
+  .our-services-right-images-area img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
+  
+  /* Uzman koçluk bölümünün yüksekliğini ayarlar */
+  .expert-coaching {
+    height: auto;
+    min-height: 150vh;
+  }
+  
+  /* Uzman koçluk üst konteynerini ayarlar */
+  .exp-coach-upper-container {
+    height: auto;
+    min-height: 50vh;
+    padding: 50px 20px;
+  }
+  
+  /* Uzman koçluk üst iç konteynerini dikey düzene çevirir */
+  .exp-coach-upper-insider-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    height: auto;
+  }
+  
+  /* İç sol ve sağ alanları tam genişlik yapar */
+  .insider-left-area,
+  .insider-right-area {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* İç sol alana alt boşluk ekler */
+  .insider-left-area {
+    margin-bottom: 20px;
+  }
+  
+  /* İç sol alandaki span'ı ortalar */
+  .insider-left-area span {
+    justify-content: center;
+  }
+  
+  /* İç sağ alanları ayarlar */
+  .insider-right-header,
+  .insider-right-paragraf,
+  .insider-right-button-learn-more {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* İç sağ başlık font boyutunu küçültür */
+  .insider-right-header h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  
+  /* İç sağ paragraf font boyutunu küçültür */
+  .insider-right-paragraf {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Uzman koçluk alt konteynerini ayarlar */
+  .exp-coach-sub-container {
+    height: auto;
+    min-height: 100vh;
+    padding: 50px 20px;
+    position: relative;
+  }
+  
+  /* Uzman koçluk merkez bilgi alanını statik pozisyon yapar */
+  .exp-coach-center-info-area {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Uzman koçluk merkez sol ve resim alanlarını tam genişlik yapar */
+  .exp-coach-center-left-area,
+  .exp-coach-center-img-area {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Uzman koçluk merkez resim alanının minimum yüksekliğini ayarlar */
+  .exp-coach-center-img-area {
+    min-height: 200px;
+  }
+  
+  /* Ölçeklenebilir metin alanını tam genişlik yapar */
+  .scalable-text-area {
+    width: 100%;
+  }
+  
+  /* Ölçeklenebilir metin alanındaki span'ı yatay düzene çevirir */
+  .scalable-text-area span {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  /* Ölçeklenebilir metin alanındaki paragrafı ayarlar */
+  .scalable-text-area span p {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Uzman koçluk ikon alanını statik pozisyon yapar */
+  .exp-coach-icon-area {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* İkon parçaları ve sağ alt resim alanını tam genişlik yapar */
+  .icons-parts,
+  .right-60-under-the-image-area {
+    width: 100% !important;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* İkon satır parçalarını düzenler */
+  .icon-row-parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+  }
+  
+  /* İkon satır parçalarındaki resimlerin maksimum genişliğini azaltır */
+  .icon-row-parts img {
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    margin: 10px 0;
+  }
+  
+  /* Alt kısımdaki ikon satırını da düzenler */
+  .under-part-icons {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  /* Expert coaching ikon alanını düzenler */
+  .exp-coach-icon-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* İkon satır parçalarını düzenler */
+  .icon-row-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  /* 992px altında dekoratif öğeleri gizler */
+  .space-container img {
+    display: none;
+  }
+  
+  .right-down-frame {
+    display: none;
+  }
+  
+  .left-up-frame {
+    display: none;
+  }
+  
+  /* New Course bölümünün yüksekliğini ayarlar */
+  .new-course {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* New Course konteynerinin yüksekliğini ayarlar */
+  .newcourse-container {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  /* New Course üst alanının yüksekliğini ayarlar */
+  .new-course-upper-area {
+    height: auto;
+    min-height: 60vh;
+    padding: 50px 0;
+  }
+  
+  /* New Course banner genişliğini artırır ve dikey düzene çevirir */
+  .new-course-upper-banner {
+    width: 95%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* New Course sol resim alanını tam genişlik yapar */
+  .nw-left-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  /* New Course sağ alanını tam genişlik yapar */
+  .mg-right-area {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 40px 20px;
+  }
+  
+  /* New Course içerik alanını ayarlar */
+  .mg-content-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  /* New Course header alanını ayarlar */
+  .nc-header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* New Course header font boyutunu küçültür */
+  .nc-header {
+    font-size: 18px;
+  }
+  
+  /* New Course yönetim alanını ayarlar */
+  .management-for-creatives {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* New Course yönetim paragraf font boyutunu küçültür */
+  .management-for-creatives>p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* New Course yönetim başlık font boyutunu küçültür */
+  .management-for-creatives>h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  /* New Course kayıt alanını ayarlar */
+  .enroll-now {
+    height: auto;
+    gap: 20px;
+  }
+  
+  /* New Course kayıt paragraf font boyutunu küçültür */
+  .enroll-now>p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* New Course kayıt buton font boyutunu küçültür */
+  .enroll-now-button {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  
+  /* New Course alt bölümünün yüksekliğini ayarlar */
+  .new-course-bottom-area {
+    height: auto;
+    min-height: 40vh;
+    padding: 40px 20px;
+  }
+  
+  /* New Course alt başlık font boyutunu küçültür */
+  .boc-header h2 {
+    font-size: 32px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* New Course alt içerik alanını dikey düzene çevirir */
+  .new-course-bottom-coaching-benefits {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* New Course alt içerik alanını dikey düzene çevirir */
+  .boc-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* New Course alt içerik resimlerini ayarlar */
+  .boc-content img {
+    width: 30%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 5px;
+    flex: 1;
+  }
+}
+
+/* ========================================
+   MOBILE LARGE (768px ve altı)
+   ======================================== */
+@media (max-width: 768px) {
+  /* Masaüstü navigasyonu gizler */
+  #eskool-main-page-nav-bar {
+    display: none;
+  }
+  
+  /* Hamburger menüyü gösterir */
+  .hamburger-menu {
+    display: flex;
+  }
+  
+  /* Header'ı yatay düzende tutar */
+  #eskool-header-main {
+    flex-direction: row;
+    height: auto;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo pozisyonunu ve boyutunu ayarlar */
+  .eskool-logo-linked img {
+    margin-left: 20px;
+    margin-bottom: 0;
+    max-width: 120px;
+  }
+  
+  /* Ana giriş bölümünün yüksekliğini ayarlar - telefon ekranına tam sığacak şekilde */
+  .main-entrance {
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+  
+  /* Metin ve galeri alanına padding ekler */
+  .texted-gallery {
+    padding: 0 15px;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  /* Ana başlık font boyutunu küçültür */
+  .inclusive-container>h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  /* Alt metin paragrafının font boyutunu küçültür */
+  .coached-bottom-text>p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* İletişim butonunun font boyutunu ve padding'ini küçültür */
+  .contact-now-button>a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  
+  /* Hakkımızda header içeriğinin padding'ini azaltır */
+  .about-us-header-content {
+    padding: 20px 10px;
+    align-items: center;
+  }
+  
+  /* Hakkımızda başlık font boyutunu küçültür */
+  .au-main-content h1 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+  /* Hakkımızda linkinin font boyutunu ve padding'ini küçültür */
+  .au-main-content a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  
+  /* Hakkımızda merkez konteynerine padding ekler */
+  .about-us-center-container {
+    padding: 30px 15px;
+  }
+  
+  /* Kartların padding'ini ve minimum yüksekliğini ayarlar */
+  .cards-to-learnmore {
+    padding: 25px 20px;
+    min-height: 250px;
+  }
+  
+  /* Kart başlıklarının font boyutunu küçültür */
+  .card-upper-text h2,
+  .bottom-text-and-button h2 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Ne yaptığımız üst konteynerine padding ekler */
+  .wwdo-upper-container {
+    padding: 30px 15px;
+  }
+  
+  /* Ne yaptığımız sağ resim alanını ayarlar - mobilde tam gözükmesi için */
+  .right-images-area {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Ne yaptığımız sağ resim alanındaki resmi ayarlar - mobilde tam gözükmesi için */
+  .right-images-area img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  /* Stratejiler başlık font boyutunu küçültür */
+  .strategies-header h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+  /* Açıklama paragraflarının font boyutunu ve padding'ini küçültür */
+  .explain-one p,
+  .explain-two p,
+  .explain-three p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 5px 10px;
+  }
+  
+  /* Açıklama öğrenme butonunun font boyutunu ve padding'ini küçültür */
+  .explains-lm-button a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  
+  /* Alt footer konteynerine padding ekler */
+  .bottom-footer-container {
+    padding: 30px 15px;
+  }
+  
+  /* Footer başlık font boyutunu küçültür */
+  .wwdo-footer-text h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+  /* Footer sağ butonunun font boyutunu ve padding'ini küçültür */
+  .wwdo-footer-right-button a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  
+  /* Hizmetlerimiz içerik konteynerine padding ekler */
+  .our-services-content-container {
+    padding: 0 15px;
+  }
+  
+  /* Hizmetlerimiz merkez başlık font boyutunu küçültür */
+  .our-services-center-header {
+    font-size: 20px;
+  }
+  
+  /* Başlık alt metin alanının font boyutunu küçültür */
+  .header-bottom-text-area {
+    font-size: 16px;
+  }
+  
+  /* Başlık alt metin başlığının font boyutunu küçültür */
+  .header-bottom-text-area h2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Uzman koçluk üst konteynerine padding ekler */
+  .exp-coach-upper-container {
+    padding: 30px 15px;
+  }
+  
+  /* İç sağ başlık font boyutunu küçültür */
+  .insider-right-header h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  
+  /* İç sağ paragraf font boyutunu küçültür */
+  .insider-right-paragraf {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* İç sağ öğrenme butonunun font boyutunu ve padding'ini küçültür */
+  .insider-right-button-learn-more a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  
+  /* Uzman koçluk alt konteynerine padding ekler */
+  .exp-coach-sub-container {
+    padding: 30px 15px;
+  }
+  
+  /* Uzman koçluk merkez resim alanının minimum yüksekliğini azaltır */
+  .exp-coach-center-img-area {
+    min-height: 200px;
+  }
+  
+  /* Mobil navigasyonu gösterir */
+  .mobile-nav {
+    display: block;
+  }
+  
+  /* New Course üst alanının padding'ini azaltır */
+  .new-course-upper-area {
+    padding: 30px 15px;
+  }
+  
+  /* New Course banner genişliğini artırır */
+  .new-course-upper-banner {
+    width: 100%;
+  }
+  
+  /* New Course sol resim alanının yüksekliğini azaltır */
+  .nw-left-img {
+    height: 250px;
+  }
+  
+  /* New Course sağ alanını tam genişlik yapar */
+  .mg-right-area {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 40px 20px;
+  }
+  
+  /* New Course içerik alanını ayarlar */
+  .mg-content-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  /* New Course header alanını ayarlar */
+  .nc-header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* New Course header font boyutunu küçültür */
+  .nc-header {
+    font-size: 18px;
+  }
+  
+  /* New Course yönetim alanını ayarlar */
+  .management-for-creatives {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* New Course yönetim paragraf font boyutunu küçültür */
+  .management-for-creatives>p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* New Course yönetim başlık font boyutunu küçültür */
+  .management-for-creatives>h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  /* New Course kayıt alanını ayarlar */
+  .enroll-now {
+    height: auto;
+    gap: 20px;
+  }
+  
+  /* New Course kayıt paragraf font boyutunu küçültür */
+  .enroll-now>p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* New Course kayıt buton font boyutunu küçültür */
+  .enroll-now-button {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  
+  /* New Course alt bölümünün padding'ini azaltır */
+  .new-course-bottom-area {
+    height: auto;
+    min-height: 40vh;
+    padding: 40px 20px;
+  }
+  
+  /* New Course alt başlık font boyutunu küçültür */
+  .boc-header h2 {
+    font-size: 32px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* New Course alt içerik alanını dikey düzene çevirir */
+  .new-course-bottom-coaching-benefits {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* New Course alt içerik alanını dikey düzene çevirir */
+  .boc-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* New Course alt içerik resimlerini ayarlar */
+  .boc-content img {
+    width: 33%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 5px;
+    flex: 1;
+  }
+}
+
+/* ========================================
+   MOBILE SMALL (480px ve altı)
+   ======================================== */
+@media (max-width: 480px) {
+  /* Logo pozisyonunu ve boyutunu daha da küçültür */
+  .eskool-logo-linked img {
+    margin-left: 15px;
+    max-width: 100px;
+  }
+  
+  /* Hamburger menünün sağ boşluğunu azaltır */
+  .hamburger-menu {
+    margin-right: 15px;
+  }
+  
+  /* Hamburger menü çizgilerinin boyutunu küçültür */
+  .hamburger-menu span {
+    width: 20px;
+    height: 2px;
+  }
+  
+  /* Ana giriş bölümünün minimum yüksekliğini azaltır */
+  .main-entrance {
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+  
+  /* Metin ve galeri alanının padding'ini azaltır */
+  .texted-gallery {
+    padding: 0 10px;
+  }
+  
+  /* Ana başlık font boyutunu daha da küçültür */
+  .inclusive-container>h1 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  
+  /* Alt metin paragrafının font boyutunu daha da küçültür */
+  .coached-bottom-text>p {
+    font-size: 13px;
+  }
+  
+  /* İletişim butonunun font boyutunu ve padding'ini daha da küçültür */
+  .contact-now-button>a {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* Hakkımızda header içeriğinin padding'ini azaltır */
+  .about-us-header-content {
+    padding: 20px 10px;
+    align-items: center;
+  }
+  
+  /* Hakkımızda başlık font boyutunu daha da küçültür */
+  .au-main-content h1 {
+    font-size: 20px;
+  }
+  
+  /* Hakkımızda linkinin font boyutunu ve padding'ini daha da küçültür */
+  .au-main-content a {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* Hakkımızda merkez konteynerinin padding'ini azaltır */
+  .about-us-center-container {
+    padding: 20px 10px;
+  }
+  
+  /* Kartların padding'ini ve minimum yüksekliğini azaltır */
+  .cards-to-learnmore {
+    padding: 20px 15px;
+    min-height: 200px;
+  }
+  
+  /* Kart başlıklarının font boyutunu daha da küçültür */
+  .card-upper-text h2,
+  .bottom-text-and-button h2 {
+    font-size: 14px;
+  }
+  
+  /* Ne yaptığımız üst konteynerinin padding'ini azaltır */
+  .wwdo-upper-container {
+    padding: 20px 10px;
+  }
+  
+  /* Ne yaptığımız sağ resim alanını küçük ekranlarda ayarlar */
+  .right-images-area {
+    min-height: 250px;
+    margin-top: 15px;
+  }
+  
+  /* Ne yaptığımız sağ resim alanındaki resmi küçük ekranlarda ayarlar */
+  .right-images-area img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  /* Stratejiler başlık font boyutunu daha da küçültür */
+  .strategies-header h2 {
+    font-size: 20px;
+  }
+  
+  /* Açıklama paragraflarının font boyutunu ve padding'ini daha da küçültür */
+  .explain-one p,
+  .explain-two p,
+  .explain-three p {
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+  
+  /* Açıklama öğrenme butonunun font boyutunu ve padding'ini daha da küçültür */
+  .explains-lm-button a {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* Alt footer konteynerinin padding'ini azaltır */
+  .bottom-footer-container {
+    padding: 20px 10px;
+  }
+  
+  /* Footer başlık font boyutunu daha da küçültür */
+  .wwdo-footer-text h2 {
+    font-size: 20px;
+  }
+  
+  /* Footer sağ butonunun font boyutunu ve padding'ini daha da küçültür */
+  .wwdo-footer-right-button a {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* Hizmetlerimiz içerik konteynerinin padding'ini azaltır */
+  .our-services-content-container {
+    padding: 0 10px;
+  }
+  
+  /* Hizmetlerimiz merkez başlık font boyutunu daha da küçültür */
+  .our-services-center-header {
+    font-size: 18px;
+  }
+  
+  /* Başlık alt metin alanının font boyutunu daha da küçültür */
+  .header-bottom-text-area {
+    font-size: 14px;
+  }
+  
+  /* Başlık alt metin başlığının font boyutunu daha da küçültür */
+  .header-bottom-text-area h2 {
+    font-size: 12px;
+  }
+  
+  /* Uzman koçluk üst konteynerinin padding'ini azaltır */
+  .exp-coach-upper-container {
+    padding: 20px 10px;
+  }
+  
+  /* İç sağ başlık font boyutunu daha da küçültür */
+  .insider-right-header h1 {
+    font-size: 18px;
+  }
+  
+  /* İç sağ paragraf font boyutunu daha da küçültür */
+  .insider-right-paragraf {
+    font-size: 13px;
+  }
+  
+  /* İç sağ öğrenme butonunun font boyutunu ve padding'ini daha da küçültür */
+  .insider-right-button-learn-more a {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* Uzman koçluk alt konteynerine padding ekler */
+  .exp-coach-sub-container {
+    padding: 20px 10px;
+  }
+  
+  /* Uzman koçluk merkez resim alanının minimum yüksekliğini azaltır */
+  .exp-coach-center-img-area {
+    min-height: 150px;
+  }
+  
+  /* Ölçeklenebilir metin alanındaki span'ı yatay düzene çevirir */
+  .scalable-text-area span {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Ölçeklenebilir metin alanındaki paragrafı ayarlar */
+  .scalable-text-area span p {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  /* Mobil navigasyon linklerinin font boyutunu ve padding'ini küçültür */
+  .mobile-nav a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  /* New Course üst alanının padding'ini azaltır */
+  .new-course-upper-area {
+    padding: 20px 10px;
+  }
+  
+  /* New Course sol resim alanının yüksekliğini azaltır */
+  .nw-left-img {
+    height: 200px;
+  }
+  
+  /* New Course sağ alanının padding'ini azaltır */
+  .mg-right-area {
+    padding: 20px 10px;
+    min-height: 300px;
+  }
+  
+  /* New Course header font boyutunu küçültür */
+  .nc-header {
+    font-size: 14px;
+  }
+  
+  /* New Course yönetim paragraf font boyutunu küçültür */
+  .management-for-creatives>p {
+    font-size: 16px;
+  }
+  
+  /* New Course yönetim başlık font boyutunu küçültür */
+  .management-for-creatives>h2 {
+    font-size: 24px;
+  }
+  
+  /* New Course kayıt paragraf font boyutunu küçültür */
+  .enroll-now>p {
+    font-size: 13px;
+  }
+  
+  /* New Course kayıt buton font boyutunu küçültür */
+  .enroll-now-button {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+  
+  /* New Course alt bölümünün padding'ini azaltır */
+  .new-course-bottom-area {
+    padding: 20px 10px;
+  }
+  
+  /* New Course alt başlık font boyutunu küçültür */
+  .boc-header h2 {
+    font-size: 24px;
+  }
+  
+  /* New Course alt içerik resimlerini küçültür */
+  .boc-content img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 5px;
+    flex: 1;
+    object-fit: contain;
+  }
+} 
+
