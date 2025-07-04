@@ -220,16 +220,24 @@ nav a:nth-child(1)>img {
 .main-entrance {
   width: 100%;
   /* Tam genişlik */
-  height: 85vh;
+  height: 100vh;
   /* Ekran yüksekliğinin %85'i */
   background-color: #282828;
   /* Koyu gri arka plan */
-  align-items: center;
+
   /* Dikeyde ortalar */
-  display: flex;
+
   /* Esnek düzen */
-  justify-content: space-between;
+
   /* Yatayda iki uç arasında boşluk */
+}
+
+.main-entrance-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* [.texted-gallery] Metin ve galeri alanının düzenini ayarlar */
@@ -242,37 +250,47 @@ nav a:nth-child(1)>img {
   /* Dikeyde ortalar */
   justify-content: space-between;
   /* Resim ile yazı arasında boşluk bırakır */
-  position: relative;
-  /* Göreceli konumlandırma */
-  height: 65vh;
+  height: 65%;
   /* Ekran yüksekliğinin %65'i */
 }
 
-/* [.image-contain, .text-contain] Resim ve metin konteynerlerinin ortak stillerini ayarlar */
-.image-contain,
-.text-contain {
-  z-index: 1;
-  /* Katman sırası */
-  width: 50%;
-  /* Genişliğin yarısı */
+.image-contain {
+  width: 45%;
+  height: 100%;
+  background: url("assets/center-main-photo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* [.text-contain] Metin konteynerinin ek stillerini ayarlar */
 .text-contain {
-  text-align: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* Metni ortalar */
 }
 
-/* [.inclusive-container] İçerik konteynerinin stilini ayarlar */
-.inclusive-container {
-  text-align: left;
-  /* Metni sola yaslar */
+.inclusive-container{
   width: 100%;
-  /* Tam genişlik */
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inclusive-container .entrance-header{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* [.inclusive-container>h1] Ana başlığın stilini ayarlar */
-.inclusive-container>h1 {
+.inclusive-container h1 {
   font-size: 58px;
   /* Font boyutu */
   font-weight: bold;
@@ -287,58 +305,25 @@ nav a:nth-child(1)>img {
   /* Turuncu renk */
 }
 
-/* [.left-up-frame] Sol üst çerçeve elementinin konumunu ayarlar */
-.left-up-frame {
-  position: absolute;
-  /* Mutlak konumlandırma */
-  top: 17%;
-  /* Üstten %17 */
-  left: -2%;
-  /* Soldan %-2 */
-}
 
-/* [.space-container] Boşluk konteynerinin boyutlarını ayarlar */
-.space-container {
-  width: 10%;
-  /* Genişliğin %10'u */
-  height: 60vh;
-  /* Ekran yüksekliğinin %60'ı */
-}
 
-/* [.space-container img] Boşluk konteynerindeki resmin konumunu ayarlar */
-.space-container img {
-  position: absolute;
-  /* Mutlak konumlandırma */
-  top: 77%;
-  /* Üstten %77 */
-  left: 44%;
-  /* Soldan %44 */
-  width: 200px;
-  /* Resim genişliği */
-}
 
-/* [.right-down-frame] Sağ alt çerçeve elementinin konumunu ayarlar */
-.right-down-frame {
-  position: absolute;
-  /* Mutlak konumlandırma */
-  right: 0;
-  /* Sağdan sıfır */
-  bottom: 0;
-  /* Alttan sıfır */
-}
 
 /* [.coached-bottom-text] Alt metin alanının boyutlarını ayarlar */
 .coached-bottom-text {
-  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
   /* Genişliğin %55'i */
-  height: 50px;
+  height: 30%;
   /* Sabit yükseklik */
-  margin-top: 20px;
   /* Üstten boşluk */
 }
 
 /* [.coached-bottom-text>p] Alt metin paragrafının stilini ayarlar */
 .coached-bottom-text>p {
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   /* Font boyutu */
   color: white;
@@ -347,11 +332,14 @@ nav a:nth-child(1)>img {
 
 /* [.contact-now-button] İletişim butonu konteynerinin stilini ayarlar */
 .contact-now-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
+  height: 30%;
   /* Tam genişlik */
-  margin: auto;
   /* Otomatik kenar boşlukları */
-  margin-top: 50px;
+
   /* Üstten boşluk */
 }
 
@@ -1806,7 +1794,8 @@ nav a:nth-child(1)>img {
   align-self: flex-start;
   gap: 20px;
 }
-.lasnew-text p{
+
+.lasnew-text p {
   color: #F9F9F9;
   opacity: 70%;
 }

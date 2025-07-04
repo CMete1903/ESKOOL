@@ -1,12 +1,19 @@
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   /* Normal navigasyon barını gizle */
   #eskool-main-page-nav-bar {
     display: none;
   }
   
-  /* Hamburger menüyü görünür hale getir */
+  /* Hamburger menüyü görünür ve üstte yap */
   .hamburger-menu {
-    display: flex;
+    display: flex !important;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+    background: rgba(40,40,40,0.95);
+    padding: 10px;
+    border-radius: 8px;
   }
   
   /* Header'ın yüksekliğini ve padding'ini ayarla */
@@ -24,50 +31,65 @@
     width: auto;
   }
   
-  /* Hamburger menü pozisyonunu ayarla */
-  .hamburger-menu {
-    margin-right: 20px;
-  }
-  
-  /* Hamburger menü çizgilerinin boyutunu ayarla */
+  /* Hamburger menü çizgileri */
   .hamburger-menu span {
-    width: 22px;
-    height: 2px;
-    margin: 2px 0;
+    width: 28px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: #fff;
+    border-radius: 2px;
+    display: block;
   }
   
-  /* Mobil navigasyon menüsünü ayarla */
+  /* Mobil navigasyon menüsünü tam ekran ve daha opak yap */
   .mobile-nav {
-    display: block;
+    display: block !important;
+    position: fixed;
+    top: 0;
     right: -100%;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(40,40,40,0.97);
     transition: right 0.3s ease;
-    z-index: 1000;
+    z-index: 1050;
+    overflow-y: auto;
   }
   
-  /* Mobil navigasyon aktif olduğunda */
   .mobile-nav.active {
-    right: 0;
+    right: 0 !important;
   }
   
-  /* Mobil menü linklerinin boyutunu ayarla */
-  .mobile-nav a,
-  .mobile-nav-link {
-    font-size: 18px;
-    padding: 12px 20px;
-    color: #282828;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-  }
-  
-  /* Mobil menü içeriğini ayarla */
+  /* Menü içeriğini tam ortala */
   .mobile-nav-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+    gap: 32px;
+    padding: 0;
+  }
+  
+  .mobile-nav a,
+  .mobile-nav-link {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s;
+    font-weight: 600;
+    padding: 16px 0;
+    width: 100vw;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .mobile-nav a:last-child {
+    color: #fe6839;
   }
 
 .main-entrance{
@@ -75,31 +97,79 @@
     height: 100vh;
 }
 
-.main-entrance >img{
-    display: none;
+.main-entrance-container{
+  width: 100%;
+  height: 100%;
+}
+
+.main-entrance-container{
+  width: 100%;
+  height: 100%;
 }
 
 .texted-gallery{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .image-contain{
-    width: 100%;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image-contain img{
-    width: 100%;
-    object-fit: contain;
+
+.text-contain{
+  width: 100%;
+  height: 100%;
 }
 
-.text-contain .inclusive-container >h1{
-    font-size:20px;
+.inclusive-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
-.
+.inclusive-container h1 {
+  font-size: 30px;
+}
+
+.entrance-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coached-bottom-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coached-bottom-text p{
+  text-align: center;
+  font-size: 20px;
+}
+.contact-now-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 }
