@@ -379,8 +379,16 @@ nav a:nth-child(1)>img {
   /* Tam genişlik */
   height: 100vh;
   /* Tam ekran yüksekliği */
-  position: relative;
   /* Göreceli konumlandırma */
+}
+
+.about-us-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* [.about-us-header-content] Hakkımızda header içeriğinin stilini ayarlar */
@@ -393,32 +401,53 @@ nav a:nth-child(1)>img {
   /* Açık gri arka plan */
   display: flex;
   /* Esnek düzen */
+  align-items: center;
 }
 
 /* [.au-main-content] Ana içerik alanının stilini ayarlar */
-.au-main-content {
-  margin: auto;
-  /* Otomatik kenar boşlukları */
-  width: 50%;
-  /* Genişliğin yarısı */
-  height: 60%;
-  /* Yüksekliğin %60'ı */
+.au-header-left-text{
+  width: 15%;
+  height: 65%;
   display: flex;
-  /* Esnek düzen */
-  flex-direction: column;
-  /* Dikey sıralama */
-  align-items: center;
-  /* Yatayda ortalar */
+  justify-content: center;
+}
+
+.au-header-left-text span{
+  font-size: 20px;
 }
 
 /* [.au-main-content h1] Ana başlığın stilini ayarlar */
-.au-main-content h1 {
+.au-center-header{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.au-header{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.au-header h1{
   font-size: 45px;
-  /* Font boyutu */
+}
+
+.au-button{
+  width: 40%;
+  height: 40%;
+  display: flex;
+  align-items: center;
 }
 
 /* [.au-main-content a] Ana içerik linkinin stilini ayarlar */
-.au-main-content a {
+.au-button a {
+
   font-size: 18px;
   /* Font boyutu */
   color: black;
@@ -440,7 +469,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.au-main-content a:hover] Ana içerik linkine hover efekti ekler */
-.au-main-content a:hover {
+.au-button a:hover {
   background-color: #282828;
   /* Koyu gri arka plan */
   color: white;
@@ -457,14 +486,7 @@ nav a:nth-child(1)>img {
 
 /* [.about-us-header-content span] Header içeriğindeki span elementinin konumunu ayarlar */
 .about-us-header-content span {
-  position: absolute;
-  /* Mutlak konumlandırma */
-  top: 7.5%;
-  /* Üstten %7.5 */
-  left: 10%;
-  /* Soldan %10 */
-  display: flex;
-  /* Esnek düzen */
+ /* Esnek düzen */
   font-size: 20px;
   /* Font boyutu */
 }

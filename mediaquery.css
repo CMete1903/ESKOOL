@@ -139,15 +139,19 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 50px;
 }
 
-.inclusive-container h1 {
-  font-size: 30px;
+.entrance-header h1{
+  font-size: 28px;
 }
 
+
 .entrance-header{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,6 +174,103 @@
   align-items: center;
 }
 
+.contact-now-button a{
+  width: 100%;
+  text-align: center;
+}
 
 
+.about-us{
+  width: 100vw;
+  height: 150vh;
+  background-color: #EAEAEA;
+}
+
+.about-us-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.about-us-header-content{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-header-left-text{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-header-left-text span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.au-center-header{
+  width: 100%;
+  height: 100%;
+}
+
+.au-header h1{
+  font-size: 25px;
+}
+.au-button{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.au-button a{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.about-us-center-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inclusive-contain{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.crema-card, .orange-card, .backgrounded-card{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-upper-text{
+  width: 100%;
+  height: 30%;
+  font-size: 35px;
 }
