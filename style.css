@@ -39,7 +39,7 @@
 }
 
 /* [nav a:nth-child(1)>img] Navigasyonun ilk linkindeki img'nin boyutunu ve sağ boşluğunu ayarlar */
-nav a:nth-child(1)>img {
+nav a:nth-child(1) > img {
   width: 13px;
   margin-right: 7.5px;
 }
@@ -273,7 +273,7 @@ nav a:nth-child(1)>img {
   /* Metni ortalar */
 }
 
-.inclusive-container{
+.inclusive-container {
   width: 100%;
   height: 80%;
   display: flex;
@@ -281,7 +281,7 @@ nav a:nth-child(1)>img {
   justify-content: center;
 }
 
-.inclusive-container .entrance-header{
+.inclusive-container .entrance-header {
   width: 100%;
   height: 40%;
   display: flex;
@@ -300,14 +300,10 @@ nav a:nth-child(1)>img {
 }
 
 /* [.inclusive-container h1>span] Başlıktaki span elementinin rengini ayarlar */
-.inclusive-container h1>span {
+.inclusive-container h1 > span {
   color: #fe6839;
   /* Turuncu renk */
 }
-
-
-
-
 
 /* [.coached-bottom-text] Alt metin alanının boyutlarını ayarlar */
 .coached-bottom-text {
@@ -322,8 +318,8 @@ nav a:nth-child(1)>img {
 }
 
 /* [.coached-bottom-text>p] Alt metin paragrafının stilini ayarlar */
-.coached-bottom-text>p {
-  font-family: 'Poppins', sans-serif;
+.coached-bottom-text > p {
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   /* Font boyutu */
   color: white;
@@ -344,7 +340,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.contact-now-button>a] İletişim butonunun temel stilini ayarlar */
-.contact-now-button>a {
+.contact-now-button > a {
   text-decoration: none;
   /* Alt çizgiyi kaldırır */
   border: 1px solid #fe6839;
@@ -362,7 +358,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.contact-now-button>a:hover] İletişim butonuna hover efekti ekler */
-.contact-now-button>a:hover {
+.contact-now-button > a:hover {
   background-color: #fe6839;
   /* Turuncu arka plan */
   border-radius: 50px;
@@ -382,7 +378,7 @@ nav a:nth-child(1)>img {
   /* Göreceli konumlandırma */
 }
 
-.about-us-container{
+.about-us-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -397,7 +393,7 @@ nav a:nth-child(1)>img {
   /* Tam genişlik */
   height: 35vh;
   /* Ekran yüksekliğinin %35'i */
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   /* Açık gri arka plan */
   display: flex;
   /* Esnek düzen */
@@ -405,40 +401,39 @@ nav a:nth-child(1)>img {
 }
 
 /* [.au-main-content] Ana içerik alanının stilini ayarlar */
-.au-header-left-text{
+.au-header-left-text {
   width: 15%;
   height: 65%;
   display: flex;
   justify-content: center;
 }
 
-.au-header-left-text span{
+.au-header-left-text span {
   font-size: 20px;
 }
 
 /* [.au-main-content h1] Ana başlığın stilini ayarlar */
-.au-center-header{
+.au-center-header {
   width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  
 }
 
-.au-header{
+.au-header {
   width: 100%;
   height: 60%;
   display: flex;
   align-items: center;
 }
 
-.au-header h1{
+.au-header h1 {
   font-size: 45px;
 }
 
-.au-button{
+.au-button {
   width: 40%;
   height: 40%;
   display: flex;
@@ -447,7 +442,6 @@ nav a:nth-child(1)>img {
 
 /* [.au-main-content a] Ana içerik linkinin stilini ayarlar */
 .au-button a {
-
   font-size: 18px;
   /* Font boyutu */
   color: black;
@@ -486,13 +480,13 @@ nav a:nth-child(1)>img {
 
 /* [.about-us-header-content span] Header içeriğindeki span elementinin konumunu ayarlar */
 .about-us-header-content span {
- /* Esnek düzen */
+  /* Esnek düzen */
   font-size: 20px;
   /* Font boyutu */
 }
 
 /* [.about-us-header-content span>img] Span içindeki resmin stilini ayarlar */
-.about-us-header-content span>img {
+.about-us-header-content span > img {
   margin-right: 5px;
   /* Sağdan boşluk */
 }
@@ -515,25 +509,26 @@ nav a:nth-child(1)>img {
 
 /* [.card-inclusive-contain] Kart konteynerinin stilini ayarlar */
 .card-inclusive-contain {
-  width: 75%;
+  width: 100%;
   /* Genişliğin %75'i */
   display: flex;
   /* Esnek düzen */
-  justify-content: space-around;
+  justify-content: center;
   /* Yatayda eşit dağılım */
   align-items: end;
+  gap: 50px;
   /* Dikeyde alta yaslar */
 }
 
 /* [.cards-to-learnmore] Öğrenme kartlarının temel stilini ayarlar */
 .cards-to-learnmore {
-  width: 30%;
+  width: 23%;
   /* Genişliğin %30'u */
   height: 500px;
   /* Sabit yükseklik */
   border-radius: 50px;
   /* Yuvarlak köşeler */
-  padding: 50px;
+  padding: 30px;
   /* İç boşluk */
   color: black;
   /* Siyah metin */
@@ -555,7 +550,7 @@ nav a:nth-child(1)>img {
 
 /* [.crema-card] Krem rengi kartın arka plan rengini ayarlar */
 .crema-card {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   /* Krem rengi arka plan */
   font-size: 20px;
   /* Font boyutu */
@@ -565,7 +560,7 @@ nav a:nth-child(1)>img {
 .orange-card {
   position: relative;
   /* Göreceli konumlandırma */
-  background-color: #FE6839;
+  background-color: #fe6839;
   /* Turuncu arka plan */
   font-size: 20px;
   /* Font boyutu */
@@ -699,7 +694,7 @@ nav a:nth-child(1)>img {
 
 /* [.orange-card-button a] Turuncu kart butonunun özel stilini ayarlar */
 .orange-card-button a {
-  border: 1px solid #FE6839 !important;
+  border: 1px solid #fe6839 !important;
   /* Turuncu kenarlık (öncelikli) */
   color: white;
   /* Beyaz metin */
@@ -718,7 +713,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.orange-card-button a>img] Turuncu kart butonundaki resmin stilini ayarlar */
-.orange-card-button a>img {
+.orange-card-button a > img {
   filter: invert(1) brightness(1);
   /* Resmi beyaz yapar */
 }
@@ -729,7 +724,7 @@ nav a:nth-child(1)>img {
   /* Tam genişlik */
   height: 100vh;
   /* Tam ekran yüksekliği */
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   /* Açık gri arka plan */
 }
 
@@ -790,7 +785,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.wwdo-span-text span>img] Span içindeki resmin stilini ayarlar */
-.wwdo-span-text span>img {
+.wwdo-span-text span > img {
   margin-right: 5px;
   /* Sağdan boşluk */
   width: 13px;
@@ -839,7 +834,7 @@ nav a:nth-child(1)>img {
 .explain-one,
 .explain-two,
 .explain-three {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   /* Font ailesi (öncelikli) */
   width: 100%;
   /* Tam genişlik */
@@ -863,7 +858,7 @@ nav a:nth-child(1)>img {
 .explain-one b,
 .explain-two b,
 .explain-three b {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   /* Font ailesi (öncelikli) */
   margin-right: 10px;
   /* Sağdan boşluk */
@@ -871,7 +866,7 @@ nav a:nth-child(1)>img {
   /* Font boyutu */
   opacity: 80%;
   /* %80 şeffaflık */
-  color: #C2C2C2;
+  color: #c2c2c2;
   /* Açık gri renk */
 }
 
@@ -955,7 +950,7 @@ nav a:nth-child(1)>img {
   /* Tam genişlik */
   height: 20%;
   /* Yüksekliğin %20'si */
-  background-color: #FE6839;
+  background-color: #fe6839;
   /* Turuncu arka plan */
   display: flex;
   /* Esnek düzen */
@@ -1042,7 +1037,7 @@ nav a:nth-child(1)>img {
 }
 
 /* [.wwdo-footer-right-button a>img] Ne yaptığımız footer sağ butonundaki resmin stilini ayarlar */
-.wwdo-footer-right-button a>img {
+.wwdo-footer-right-button a > img {
   filter: invert(1) brightness(1);
   /* Resmi beyaz yapar */
 }
@@ -1105,7 +1100,7 @@ nav a:nth-child(1)>img {
 
 /* [.left-span-text-area span] Sol span alanındaki metnin stilini ayarlar */
 .left-span-text-area span {
-  color: #8D8D8D;
+  color: #8d8d8d;
   /* Gri metin rengi */
   display: flex;
   /* Esnek düzen */
@@ -1123,7 +1118,7 @@ nav a:nth-child(1)>img {
 
 /* [.our-services-center-header] Hizmetlerimiz merkez başlığının stilini ayarlar */
 .our-services-center-header {
-  color: #FE6839;
+  color: #fe6839;
   /* Turuncu metin rengi */
   font-size: 30px;
   /* Font boyutu */
@@ -1141,7 +1136,7 @@ nav a:nth-child(1)>img {
 
 /* [.header-bottom-text-area] Başlık alt metin alanının stilini ayarlar */
 .header-bottom-text-area {
-  color: #F9F9F9;
+  color: #f9f9f9;
   /* Açık gri metin rengi */
   font-size: 30px;
   /* Font boyutu */
@@ -1159,7 +1154,7 @@ nav a:nth-child(1)>img {
 
 /* [.header-bottom-text-area h2:hover] Başlık alt metin başlığına hover efekti ekler */
 .header-bottom-text-area h2:hover {
-  color: #FE6839;
+  color: #fe6839;
   /* Turuncu metin rengi */
   transform: translateX(5px);
   /* Sağa kaydırır */
@@ -1203,7 +1198,7 @@ nav a:nth-child(1)>img {
 
 /* [.exp-coach-upper-container] Expert coaching üst konteynerinin stilini ayarlar */
 .exp-coach-upper-container {
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
   width: 100%;
   height: 50vh;
   display: flex;
@@ -1230,7 +1225,7 @@ nav a:nth-child(1)>img {
 
 /* [.insider-left-area span] İç sol alanındaki span'ın stilini ayarlar */
 .insider-left-area span {
-  color: #8D8D8D;
+  color: #8d8d8d;
   display: flex;
   font-size: 20px;
   align-items: center;
@@ -1262,7 +1257,7 @@ nav a:nth-child(1)>img {
 /* [.insider-right-paragraf] İç sağ paragraf alanının stilini ayarlar */
 .insider-right-paragraf {
   font-size: 18px;
-  color: #8D8D8D;
+  color: #8d8d8d;
   margin-bottom: 30px;
 }
 
@@ -1339,7 +1334,7 @@ nav a:nth-child(1)>img {
 /* [.scalable-text-area span p] Ölçeklenebilir metin alanındaki paragrafın stilini ayarlar */
 .scalable-text-area span p {
   font-size: 18px;
-  color: #8D8D8D;
+  color: #8d8d8d;
   line-height: 1.6;
   margin: 0;
 }
@@ -1417,7 +1412,6 @@ nav a:nth-child(1)>img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-
 }
 
 .nw-left-img {
@@ -1434,7 +1428,7 @@ nav a:nth-child(1)>img {
 .mg-right-area {
   width: 35%;
   height: 100%;
-  background-color: #FE6839;
+  background-color: #fe6839;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
@@ -1465,7 +1459,7 @@ nav a:nth-child(1)>img {
   margin-right: 10px;
 }
 
-.mg-right-area>img {
+.mg-right-area > img {
   position: absolute;
   top: 0;
   right: 0;
@@ -1480,11 +1474,11 @@ nav a:nth-child(1)>img {
   color: white;
 }
 
-.management-for-creatives>p {
+.management-for-creatives > p {
   font-size: 24px;
 }
 
-.management-for-creatives>h2 {
+.management-for-creatives > h2 {
   font-size: 45px;
 }
 
@@ -1496,10 +1490,9 @@ nav a:nth-child(1)>img {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 
-.enroll-now>p {
+.enroll-now > p {
   font-size: 20px;
 }
 
@@ -1525,7 +1518,6 @@ nav a:nth-child(1)>img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Gölge efekti */
 }
-
 
 .new-course-bottom-area {
   width: 100%;
@@ -1600,7 +1592,6 @@ nav a:nth-child(1)>img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .testimonials-paragraph {
@@ -1651,7 +1642,6 @@ nav a:nth-child(1)>img {
 
 .new-strategies-content-left img {
   object-fit: contain;
-
 }
 
 .new-strategies-content-right {
@@ -1660,7 +1650,7 @@ nav a:nth-child(1)>img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 
 .new-strategies-center-textarea {
@@ -1699,18 +1689,18 @@ nav a:nth-child(1)>img {
   gap: 20px;
 }
 
-.nws-paragraph ul>li {
+.nws-paragraph ul > li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nws-paragraph ul>li span {
+.nws-paragraph ul > li span {
   align-self: flex-start;
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
-  color: #C2C2C2;
-  margin-right: 20px
+  font-family: "Poppins", sans-serif;
+  color: #c2c2c2;
+  margin-right: 20px;
 }
 
 .nws-learn-more-button {
@@ -1792,13 +1782,11 @@ nav a:nth-child(1)>img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .lasnew-img-container {
   width: 100%;
 }
-
 
 .lasnew-img-container img {
   width: 100%;
@@ -1818,11 +1806,9 @@ nav a:nth-child(1)>img {
 }
 
 .lasnew-text p {
-  color: #F9F9F9;
+  color: #f9f9f9;
   opacity: 70%;
 }
-
-
 
 .lasnew-card-button {
   width: 100%;
