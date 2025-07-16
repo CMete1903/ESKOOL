@@ -1178,217 +1178,62 @@ nav a:nth-child(1) > img {
   /* Resmi doldurur */
 }
 
-/* [.expert-coaching] Expert coaching bölümünün temel stilini ayarlar */
-.expert-coaching {
+.expert-coaching{
   width: 100%;
-  /* Tam genişlik */
-  height: 150vh;
-  /* Tam ekran yüksekliği */
-  background-color: white;
-  /* Açık gri arka plan */
+  height: 125vh;
 }
 
-/* [.exp-coach-container] Expert coaching ana konteynerinin stilini ayarlar */
-.exp-coach-container {
+.expert-coaching-container{
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* [.exp-coach-upper-container] Expert coaching üst konteynerinin stilini ayarlar */
-.exp-coach-upper-container {
-  background-color: #e9e9e9;
+.expert-coaching-header-container{
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* [.exp-coach-upper-insider-container] Expert coaching üst iç konteynerinin stilini ayarlar */
-.exp-coach-upper-insider-container {
-  width: 90%;
-  height: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* [.insider-left-area] İç sol alanının stilini ayarlar */
-.insider-left-area {
+.expert-coaching-left-text{
   width: 25%;
   height: 100%;
-  display: flex;
-  align-items: center;
+  padding: 20px;
 }
 
-/* [.insider-left-area span] İç sol alanındaki span'ın stilini ayarlar */
-.insider-left-area span {
-  color: #8d8d8d;
-  display: flex;
+.expert-coaching-left-text span{
   font-size: 20px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
-/* [.insider-left-area span img] İç sol alanındaki resmin stilini ayarlar */
-.insider-left-area span img {
-  width: 15px;
-  object-fit: contain;
-  margin-right: 5px;
-}
 
-/* [.insider-right-area] İç sağ alanının stilini ayarlar */
-.insider-right-area {
-  width: 70%;
+.expert-coaching-right-area {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-/* [.insider-right-header] İç sağ başlık alanının stilini ayarlar */
-.insider-right-header h1 {
-  font-size: 45px;
-  color: #282828;
-  margin-bottom: 20px;
-}
-
-/* [.insider-right-paragraf] İç sağ paragraf alanının stilini ayarlar */
-.insider-right-paragraf {
-  font-size: 18px;
-  color: #8d8d8d;
-  margin-bottom: 30px;
-}
-
-/* [.insider-right-button-learn-more] İç sağ öğrenme butonunun stilini ayarlar */
-.insider-right-button-learn-more a {
-  text-decoration: none;
-  padding: 20px 25px;
-  border: 1px solid black;
-  border-radius: 50px;
-  color: black;
-  font-size: 20px;
-  transition-duration: 0.4s;
-  display: inline-flex;
   align-items: center;
 }
 
-/* [.insider-right-button-learn-more a:hover] İç sağ öğrenme butonuna hover efekti ekler */
-.insider-right-button-learn-more a:hover {
-  background-color: #282828;
-  color: white;
-  border-color: #282828;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.exp-coaching-right-area-header{
+  width: 75%;
+  height: 30%;
+  font-size: 35px;
 }
 
-/* [.exp-coach-sub-container] Expert coaching alt konteynerinin stilini ayarlar */
-.exp-coach-sub-container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* [.exp-coach-center-info-area] Expert coaching merkez bilgi alanının stilini ayarlar */
-.exp-coach-center-info-area {
-  width: 90%;
-  height: 50vh;
-  display: flex;
-  position: absolute;
-  top: -10%;
-}
-
-/* [.exp-coach-center-left-area] Expert coaching merkez sol alanının stilini ayarlar */
-.exp-coach-center-left-area {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0 50px;
-}
-
-/* [.scalable-text-area] Ölçeklenebilir metin alanının stilini ayarlar */
-.scalable-text-area {
-  width: 100%;
-}
-
-/* [.scalable-text-area span] Ölçeklenebilir metin alanındaki span'ın stilini ayarlar */
-.scalable-text-area span {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-/* [.scalable-text-area span img] Ölçeklenebilir metin alanındaki resmin stilini ayarlar */
-.scalable-text-area span img {
-  width: 20px;
-  object-fit: contain;
-}
-
-/* [.scalable-text-area span p] Ölçeklenebilir metin alanındaki paragrafın stilini ayarlar */
-.scalable-text-area span p {
-  font-size: 18px;
-  color: #8d8d8d;
-  line-height: 1.6;
-  margin: 0;
-}
-
-/* [.exp-coach-center-img-area] Expert coaching merkez resim alanının stilini ilk haline getiriyorum */
-.exp-coach-center-img-area {
-  width: 70%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  background-image: url("assets/exp-coaching-images.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-}
-
-/* [.exp-coach-icon-area] Expert coaching ikon alanının stilini ayarlar */
-.exp-coach-icon-area {
-  width: 100%;
-  height: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  position: absolute;
-  bottom: 20%;
-}
-
-/* [.icons-parts] İkon parçalarının stilini ayarlar */
-.icons-parts {
-  width: 30%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* [.right-60-under-the-image-area] Sağ alt resim alanının stilini ayarlar */
-.right-60-under-the-image-area {
-  width: 70% !important;
-  /* Genişliğin %60'ı (öncelikli) */
-  height: 70%;
-  /* Tam yükseklik */
-  display: flex;
-  /* Esnek düzen */
-  flex-direction: column;
-  /* Dikey sıralama */
-  justify-content: center;
-  /* Dikeyde ortalar */
-  align-items: center;
-  /* Sağa hizalar */
-  gap: 30px;
-  /* Öğeler arası boşluk */
+.exp-coaching-right-mini-paragraph{
+  width: 75%;
+  height: 30%;
+  font-size: 30px ;
 }
 
 .new-course {
