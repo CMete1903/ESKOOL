@@ -92,6 +92,10 @@
     color: #fe6839;
   }
 
+
+
+
+
   .main-entrance {
     width: 100vw;
     height: 100vh;
@@ -522,92 +526,444 @@
     border-radius: 30px;
   }
 
-  .expert-coaching {
+  .expert-coaching{
     width: 100%;
     height: 100%;
   }
 
-  .exp-coach-container {
+  .expert-coaching-container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
 
-  .exp-coach-upper-insider-container{
+  }
+  .expert-coaching-header-container{
     width: 100%;
-    height: 100%;
-     display: flex;
+    height: 20%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
   }
 
-  .insider-left-area{
+  .expert-coaching-left-text{
     width: 100%;
-    height: 20%;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px;
   }
 
-  .insider-left-area span{
+  .expert-coaching-right-area{
+    width: 100%;
+    height: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .exp-coaching-right-area-header{
+    width: 100%;
+    height: 30;
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .exp-coaching-right-mini-paragraph{
+    width: 100%;
+    height: 30%;
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .exp-coaching-right-mini-paragraph {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .exp-coaching-right-lm-button{
+    width: 100%;
+    height: 30%;
+  }
+
+  .exp-coaching-right-lm-button a{
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .expert-coaching-center-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+  }
+
+  .exp-coaching-center-left-area{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+  }
+
+  .exp-coaching-center-left-area p{
+    font-size: 20px;
+  }
+
+  .exp-coaching-center-right-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
-  .insider-right-area{
+  .exp-coaching-image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+
+  .exp-coaching-image-container img{
+    position: relative;
+    left: -40%;
+  }
+
+  .exp-coaching-fourles-image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .fourles-upper-content, .fourles-bottom-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .exp-coaching-fourles-image-container img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .new-course{
+    width: 100%;
+    height: 100%;
+  }
+
+  .newcourse-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-course-upper-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-course-upper-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nw-left-img{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+    padding: 30px;
+    background-color: #fe6839;
+    border-radius: 0px ;
+  }
+
+  .nw-left-img img{
+    width: 100%;
+    border-radius: 10px ;
+  }
+  .mg-right-area{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .mg-right-area >img{
+    display: none;
+  }
+
+  .mg-content-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .nc-header{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nc-header span{
+    display: flex;
     align-items: center;
+    font-size: 17px ;
+  }
+
+  .management-for-creatives{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .management-for-creatives p{
+    font-size: 16px;
+  }
+
+  .management-for-creatives h2{
+    font-size: 20px;
+  }
+
+  .enroll-now{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .enroll-now p{
+    font-size: 16px;
+  }
+
+  .enroll-now a{
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+  }
+        
+  .new-course-bottom-area{
+    width: 100%;
+    height: 100%;
+  }
+
+  .new-course-bottom-coaching-benefits{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+    gap: 20px;
+    background-color: #eaeaea;
+  }
+
+  .boc-header{
+    width: 100%;
+    height: 100%;
+  }
+
+  .boc-header h2{
+        font-size: 24px;
+  }
+
+  .boc-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .boc-content img{
+    width: 75%;
+  }
+
+  .testimonials{
+    width: 100%;
+    height: 100%;
+  }
+
+  .testimonials-center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .testimonials-image-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     position: relative;
+    border-radius:20px ;
   }
 
-  .insider-right-header{
+  .testimonials-paragraph-container{
     width: 100%;
-    height: 20%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    flex-direction: column;
+    gap: 20px;
   }
 
-  .insider-right-header h1{
-    font-size:20px;
+  .testimonials-paragraph p{
+    font-size: 20px;
   }
 
-  .insider-right-paragraf{
+  .new-strategies{
     width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    padding: 20px;
+    background-color: #eaeaea;
   }
 
-  .insider-right-button-learn-more{
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-
-  .insider-right-button-learn-more a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .new-strategies-container{
     width: 100%;
-    padding: 10px 15px;
+    height: 100%;
   }
 
-  .exp-coach-center-info-area{
+  .new-strategies-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-strategies-content-left{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     position: relative;
+    border-radius: 1px;
   }
+
+  .new-strategies-content-left img{
+    position: relative;
+    left: -65%;
+  }
+
+  .new-strategies-content-right{
+    width: 100%;
+    height: 100%;
+  }
+
+  .new-strategies-center-textarea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nws-header{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nws-header h2{
+    font-size: 19px ;
+  }
+
+  .nws-paragraph{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nws-paragraph ul>li{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nws-learn-more-button{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nws-learn-more-button a{
+    padding: 13px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .lastest-news{
+    width: 100%;
+    height: 100%;
+  }
+
+  .lastest-new-container{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .lastest-new-container-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastest-new-header{
+   width: 100%;
+   height: 100%; 
+  }
+
+  .lastest-new-header h2{
+    font-size:20px ;
+  }
+
+  .lasnew-inclusive-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .lasnew-left, .lasnew-center, .lasnew-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .lasnew-img-container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .lasnew-text p{
+    font-size: 18px;
+  }
+
+  .lasnew-text h3{
+    font-size: 20px;
+  }
+
 }

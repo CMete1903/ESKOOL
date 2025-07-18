@@ -1178,12 +1178,12 @@ nav a:nth-child(1) > img {
   /* Resmi doldurur */
 }
 
-.expert-coaching{
+.expert-coaching {
   width: 100%;
-  height: 125vh;
+  height: 130vh;
 }
 
-.expert-coaching-container{
+.expert-coaching-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1192,21 +1192,23 @@ nav a:nth-child(1) > img {
   align-items: center;
 }
 
-.expert-coaching-header-container{
+.expert-coaching-header-container {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
+  background-color: #E9E9E9;
 }
 
-.expert-coaching-left-text{
+.expert-coaching-left-text {
   width: 25%;
   height: 100%;
   padding: 20px;
 }
 
-.expert-coaching-left-text span{
+.expert-coaching-left-text span {
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -1214,26 +1216,104 @@ nav a:nth-child(1) > img {
   gap: 10px;
 }
 
-
 .expert-coaching-right-area {
-  width: 100%;
+  width: 75%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.exp-coaching-right-area-header {
+  width: 75%;
+  height: 50%;
+  font-size: 32px;
+  display: flex;
   align-items: center;
 }
 
-.exp-coaching-right-area-header{
-  width: 75%;
-  height: 30%;
-  font-size: 35px;
+.exp-coaching-right-mini-paragraph {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 }
 
-.exp-coaching-right-mini-paragraph{
-  width: 75%;
+.exp-coaching-right-lm-button {
+  width: 100%;
   height: 30%;
-  font-size: 30px ;
+  display: flex;
+  align-items: center;
+}
+
+.exp-coaching-right-lm-button a{
+  text-decoration: none;
+  padding: 20px 25px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.exp-coaching-right-lm-button a:hover{
+  background-color: #282828;
+  border-color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+
+}
+
+.expert-coaching-center-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background: linear-gradient(to bottom, #E9E9E9 25%, white 25%);
+}
+
+
+.exp-coaching-center-left-area{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:18px;
+  padding: 40px;
+
+}
+
+.exp-coaching-center-left-area img{
+  align-self: flex-start;
+}
+
+.exp-coaching-center-left-area p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.exp-coaching-center-right-area{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.exp-coaching-image-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+.exp-coaching-fourles-image-container{
+  width: 100%;
+  display: flex;
 }
 
 .new-course {
@@ -1262,12 +1342,13 @@ nav a:nth-child(1) > img {
 .nw-left-img {
   width: 65%;
   height: 100%;
-  background-image: url("assets/new-course-banner.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+
+.nw-left-img img{
+  object-fit: cover;
 }
 
 .mg-right-area {
